@@ -22,16 +22,16 @@ var increasingTriplet = function(nums) {
   var small = Number.MAX_SAFE_INTEGER;
   var big = Number.MAX_SAFE_INTEGER;
   for(var i  = 0; i<nums.length; i++){
-      if(nums[i]<=small){
+      if (nums[i] <= small) {
           small = nums[i];
-      }else if(nums[i]<=big){
+      } else if (nums[i] <= big) {
           big = nums[i];
-      }else{
+      } else {
           return true;
       }
   }
   return false;
 };
 
-var nums = [1,2,2,1];
+var nums = [1,2,2,1,3];
 console.log(increasingTriplet(nums));

@@ -20,19 +20,19 @@ var groupAnagrams = function(strs) {
     var arr = [];
 var len = strs.length;
 var res = [];
-for(var i = 0;i<len;i++) {
+for (var i = 0; i<len; i++) {
     arr[i] = [0];
     arr[i].push(strs[i]);
     var temp =  strs[i].split("");
-    for(var j = 0;j<temp.length;j++){   
+    for (var j = 0; j<temp.length; j++) {   
         arr[i][0] += Math.pow(temp[j].charCodeAt(),4);
     }
 }
 arr.sort();
 res[0] = [arr[0][1]];
-for(var i = 1;i<len;i++){
-    if(arr[i-1][0]===arr[i][0]){
-        if(res[res.length-1] instanceof Array){
+for (var i = 1; i<len; i++) {
+    if (arr[i-1][0] === arr[i][0]) {
+        if (res[res.length-1] instanceof Array){
             res[res.length-1].push(arr[i][1]);
         }else{
             res[res.length-1] = [res[res.length-1]];
@@ -48,29 +48,3 @@ return res.sort();
 var strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
 var a = ["methodologies"];
 console.log(groupAnagrams(a));
-// var arr = [];
-// var len = strs.length;
-// var res = [];
-// for(var i = 0;i<len;i++) {
-//     arr[i] = [0];
-//     arr[i].push(strs[i]);
-//     var temp =  strs[i].split("");
-//     for(var j = 0;j<temp.length;j++){   
-//         arr[i][0] += temp[j].charCodeAt();
-//     }
-// }
-// arr.sort();
-// res[0] = arr[0][1];
-// for(var i = 1;i<len;i++){
-//     if(arr[i-1][0]===arr[i][0]){
-//         if(res[res.length-1] instanceof Array){
-//             res[res.length-1].push(arr[i][1]);
-//         }else{
-//             res[res.length-1] = [res[res.length-1]];
-//             res[res.length-1].push(arr[i][1]);
-//         }
-//     }else{
-//         res.push(arr[i][1]);
-//     }
-// }
-// return res.sort();
