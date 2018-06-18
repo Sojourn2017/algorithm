@@ -14,52 +14,22 @@
  * @return {number}
  */
 
- //字符串的方式
 var lengthOfLongestSubstring = function(s) {
-  
-    var sum = 0;
-    var result = "";
-  
-    for(var i = 0; i < s.length; i++) {
+    var res = 0; // 用于存放当前最长无重复子串的长度
+    var str = ""; // 用于存放无重复子串
+    var len = s.length;
+    for(var i = 0; i < len; i++) {
       var char = s.charAt(i);
-      var index = result.indexOf(char);
+      var index = str.indexOf(char);
       if(index === -1) {
-        result += char;
-        sum = sum < result.length ? result.length : sum;
+        str += char;
+        res = res < str.length ? str.length : res;
       } else {
-        result = result.substr(index+1) + char;
+        str = str.substr(index + 1) + char;
       }
     }
-    return sum;
-    
+    return res; 
 };
-
-//数组的方式
-// var lengthOfLongestSubstring = function(s) {
-//     if(s === ""){
-//         return 0;
-//     };
-//     var arr = [];
-//     var sArr = s.split("");
-//     var len = sArr.length-1;
-//     if(len === 0){
-//         return 1;
-//     };
-//     arr[0] = [sArr[0]];
-//     for(var i = 0; i < len; i++){
-//         if(arr[arr.length-1].indexOf(sArr[i+1])===-1){
-//             arr[arr.length-1].push(sArr[i+1]);
-//         }else{
-//             arr.push(arr[arr.length-1].slice(arr[arr.length-1].indexOf(sArr[i+1])+1));
-//             arr[arr.length-1].push(sArr[i+1]);
-//         }
-//     }
-//     for(var j = 0; j<arr.length; j++){    
-//         arr[j] = arr[j].length;
-//     }
-//     arr.sort(function(a,b){return b-a});
-//     return arr[0];
-// };
 
 var s = "pwwkew";
 console.log(lengthOfLongestSubstring(s));
