@@ -14,9 +14,19 @@
 
 ### leetcode
 
-* [车队](./leetcode/car-fleet-853.js "Car Fleet")
+* [No.854 K-Similar 字符串](./leetcode/k-similar-strings-854.js "854. K Similar Strings")
 
-* [K-Similar 字符串](./leetcode/k-similar-strings-854.js "K Similar Strings")
+* [No.853 车队](./leetcode/car-fleet-853.js "853. Car Fleet")
+
+* [No.848 字母移位](./leetcode/shifting-letters-848.js "848. Shifting Letters")
+
+* [No.847 最短路径访问所有节点](./leetcode/shortest-path-visiting-all-nodes-847.js "847. Shortest Path Visiting All Nodes")
+
+* [No.846 一手顺子](./leetcode/hand-of-straights-846.js "846. Hand of Straights")
+
+* [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
+
+* [No.3 无重复字符的最长子串](./leetcode/top-interview-questions/array-and-strings/longest-substring-without-repeating-characters.js "3. Longest Substring Without Repeating Characters")
 
   待补充
 

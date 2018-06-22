@@ -37,7 +37,7 @@ var kSimilarity = function(A, B) {
   var b = B.split(""); // 将B转换为数组
   var stack = [[b,0,0]]; // 用于存放 [当前状态的数组,下一次开始交换的索引,当前已交换的次数] 的堆栈
   var len = a.length;
-  var res = len; // 最不理想的状态下(没个字符都需要交换)K值为len
+  var res = len; // 最不理想的状态下(每个字符都需要交换)K值为len
   while (stack.length) { // BFS
     var node = stack.pop();
     var arr = node[0];
