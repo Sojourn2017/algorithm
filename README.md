@@ -14,6 +14,8 @@
 
 ### leetcode
 
+* [No.856 Score of Parentheses](./leetcode/score-of-parentheses-856.js "856. Score of Parentheses")
+
 * [No.854 K-Similar 字符串](./leetcode/k-similar-strings-854.js "854. K Similar Strings")
 
 * [No.853 车队](./leetcode/car-fleet-853.js "853. Car Fleet")
