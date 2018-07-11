@@ -30,11 +30,6 @@
  * @return {number}
  */
 
-/**
- * @param {number[][]} graph
- * @return {number}
- */
-
 // Refer to https://leetcode.com/problems/shortest-path-visiting-all-nodes/discuss/139082/JavaScript-BFS-solution
 var shortestPathLength = function(graph) {
   const dp = [...Array(graph.length)].map(r => Array(1<<(graph.length+1)).fill(Math.MAX_VALUE));

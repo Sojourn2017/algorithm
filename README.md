@@ -10,6 +10,8 @@
 
 * [位运算求1+2+3+...+n](./jz-offer/sum-solution.js "Sum Solution")
 
+* [数组中重复的数](./jz-offer/repeated-number-in-array.js "repeated number in array")
+
   待补充
 
 ### leetcode
