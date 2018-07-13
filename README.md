@@ -38,4 +38,7 @@
 
 * [数组去重](./others/array-remove-repeat-item.js "Array Remove Repeat Item")
 
+* [将整数字符串解析成数字](./others/parsing-string-into-integer.js "将整数字符串解析成数字")
+
+
   待补充
