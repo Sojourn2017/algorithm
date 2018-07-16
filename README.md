@@ -4,13 +4,17 @@
 
 ### 牛客
 
-* [斐波那契数列](./jz-offer/fibonacci.js "Fibonacci")
+* [斐波那契数列](./nowcoder/fibonacci.js "Fibonacci")
 
-* [输出指定的时间格式](./jz-offer/format-date.js "Format Date")
+* [输出指定的时间格式](./nowcoder/format-date.js "Format Date")
 
-* [位运算求1+2+3+...+n](./jz-offer/sum-solution.js "Sum Solution")
+* [位运算求1+2+3+...+n](./nowcoder/sum-solution.js "Sum Solution")
 
-* [数组中重复的数](./jz-offer/repeated-number-in-array.js "repeated number in array")
+* [数组中重复的数](./nowcoder/repeated-number-in-array.js "repeated number in array")
+
+* [用两个栈来实现队列](./nowcoder/stacks-and-queues.js "use two stacks to achieved queues's push and pop")
+
+* [旋转数组的最小数字](./nowcoder/the-smallest-number-of-rotating-arrays.js "the smallest number of rotating arrays")
 
   待补充
 

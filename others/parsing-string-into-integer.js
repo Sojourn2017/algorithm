@@ -12,12 +12,16 @@
  */
 
  function parseStrToInt(str) {
+  // // 若存在parseInt(),则直接转换
   // if (Number.parseInt) {
   //   return Number.parseInt(str);
   // }
   let len = str.length;
   let res = 0;
   for (let i = 0; i < len; i++) {
+    // 遍历字符串，若存在charCodeAt(),则手动获取字符对应的ASCII码
+    // 0~9对应的ASCII码为48~57
+    // 使用ASCII码-48，再乘以倍数，结果累加，即是转换后的数字类型
     if (String.prototype.charCodeAt) {
       res += (str[i].charCodeAt() - 48) * 10 ** (len - i - 1);
     } else {
@@ -26,7 +30,7 @@
   }
   return res;
  }
- 
+
  var a = parseStrToInt("12345");
 
  console.log(a);
