@@ -16,6 +16,10 @@
 
 * [旋转数组的最小数字](./nowcoder/the-smallest-number-of-rotating-arrays.js "the smallest number of rotating arrays")
 
+* [合并两个排序的链表](./nowcoder/merging-two-sorted-lists.js "Merging two sorted lists")
+
+* [树的子结构](./nowcoder/the-substructure-of-a-tree.js "The substructure of a tree")
+
   待补充
 
 ### leetcode
