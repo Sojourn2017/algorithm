@@ -24,6 +24,8 @@
 
 * [顺时针打印矩阵](./nowcoder/clockwise-print-matrix.js "Clockwise print matrix")
 
+* [包含min函数的栈](./nowcoder/a-stack-containing-the-min-function.js "A stack containing the min function")
+
   待补充
 
 ### leetcode
