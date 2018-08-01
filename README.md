@@ -26,6 +26,9 @@
 
 * [包含min函数的栈](./nowcoder/a-stack-containing-the-min-function.js "A stack containing the min function")
 
+* [栈的压入与弹出序列](./nowcoder/the-sequence-of-the-stack-push-and-pop.js "The sequence of the stack push and pop")
+
+
   待补充
 
 ### leetcode
