@@ -28,6 +28,7 @@
 
 * [栈的压入与弹出序列](./nowcoder/the-sequence-of-the-stack-push-and-pop.js "The sequence of the stack push and pop")
 
+* [从上往下打印二叉树](./nowcoder/print-binary-tree-from-top-to-bottom.js "Print binary tree from top to bottom")
 
   待补充
 
