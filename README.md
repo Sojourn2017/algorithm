@@ -30,6 +30,8 @@
 
 * [从上往下打印二叉树](./nowcoder/print-binary-tree-from-top-to-bottom.js "Print binary tree from top to bottom")
 
+* [二叉搜索树的后序遍历序列](./nowcoder/verify-squence-of-BST.js "Verify squence of BST")
+
   待补充
 
 ### leetcode
