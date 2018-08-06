@@ -32,6 +32,8 @@
 
 * [二叉搜索树的后序遍历序列](./nowcoder/verify-squence-of-BST.js "Verify squence of BST")
 
+* [二叉树中和为某一值的路径](./nowcoder/find-path.js "Find path")
+
   待补充
 
 ### leetcode
