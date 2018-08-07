@@ -34,6 +34,8 @@
 
 * [二叉树中和为某一值的路径](./nowcoder/find-path.js "Find path")
 
+* [复杂链表的复制](./nowcoder/clone-complex-chain.js "Clone complex chain")
+
   待补充
 
 ### leetcode
