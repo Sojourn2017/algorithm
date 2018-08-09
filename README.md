@@ -36,6 +36,8 @@
 
 * [复杂链表的复制](./nowcoder/clone-complex-chain.js "Clone complex chain")
 
+* [数组中只出现一次的数字](./nowcoder/find-nums-appear-once.js "Find nums appear once")
+
   待补充
 
 ### leetcode
