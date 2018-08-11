@@ -38,6 +38,8 @@
 
 * [数组中只出现一次的数字](./nowcoder/find-nums-appear-once.js "Find nums appear once")
 
+* [二叉搜索树与双向链表](./nowcoder/find-nums-appear-once.js "Binary search tree and doubly linked list")
+
   待补充
 
 ### leetcode
