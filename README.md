@@ -38,7 +38,9 @@
 
 * [数组中只出现一次的数字](./nowcoder/find-nums-appear-once.js "Find nums appear once")
 
-* [二叉搜索树与双向链表](./nowcoder/find-nums-appear-once.js "Binary search tree and doubly linked list")
+* [二叉搜索树与双向链表](./nowcoder/binary-search-tree-and-doubly-linked-list.js "Binary search tree and doubly linked list")
+
+* [字符串的排列](./nowcoder/permutation.js "String permutation")
 
   待补充
 
