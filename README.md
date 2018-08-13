@@ -4,43 +4,45 @@
 
 ### 牛客
 
-* [斐波那契数列](./nowcoder/fibonacci.js "Fibonacci")
+* [斐波那契数列](./nowcoder/jz-offer/fibonacci.js "Fibonacci")
 
-* [输出指定的时间格式](./nowcoder/format-date.js "Format Date")
+* [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
 
-* [位运算求1+2+3+...+n](./nowcoder/sum-solution.js "Sum Solution")
+* [位运算求1+2+3+...+n](./nowcoder/jz-offer/sum-solution.js "Sum Solution")
 
-* [数组中重复的数](./nowcoder/repeated-number-in-array.js "repeated number in array")
+* [数组中重复的数](./nowcoder/jz-offer/repeated-number-in-array.js "repeated number in array")
 
-* [用两个栈来实现队列](./nowcoder/stacks-and-queues.js "use two stacks to achieved queues's push and pop")
+* [用两个栈来实现队列](./nowcoder/jz-offer/stacks-and-queues.js "use two stacks to achieved queues's push and pop")
 
-* [旋转数组的最小数字](./nowcoder/the-smallest-number-of-rotating-arrays.js "the smallest number of rotating arrays")
+* [旋转数组的最小数字](./nowcoder/jz-offer/the-smallest-number-of-rotating-arrays.js "the smallest number of rotating arrays")
 
-* [合并两个排序的链表](./nowcoder/merging-two-sorted-lists.js "Merging two sorted lists")
+* [合并两个排序的链表](./nowcoder/jz-offer/merging-two-sorted-lists.js "Merging two sorted lists")
 
-* [树的子结构](./nowcoder/the-substructure-of-a-tree.js "The substructure of a tree")
+* [树的子结构](./nowcoder/jz-offer/the-substructure-of-a-tree.js "The substructure of a tree")
 
-* [二叉树的镜像](./nowcoder/the-mirror-of-the-two-forked-tree.js "The mirror of the two forked tree")
+* [二叉树的镜像](./nowcoder/jz-offer/the-mirror-of-the-two-forked-tree.js "The mirror of the two forked tree")
 
-* [顺时针打印矩阵](./nowcoder/clockwise-print-matrix.js "Clockwise print matrix")
+* [顺时针打印矩阵](./nowcoder/jz-offer/clockwise-print-matrix.js "Clockwise print matrix")
 
-* [包含min函数的栈](./nowcoder/a-stack-containing-the-min-function.js "A stack containing the min function")
+* [包含min函数的栈](./nowcoder/jz-offer/a-stack-containing-the-min-function.js "A stack containing the min function")
 
-* [栈的压入与弹出序列](./nowcoder/the-sequence-of-the-stack-push-and-pop.js "The sequence of the stack push and pop")
+* [栈的压入与弹出序列](./nowcoder/jz-offer/the-sequence-of-the-stack-push-and-pop.js "The sequence of the stack push and pop")
 
-* [从上往下打印二叉树](./nowcoder/print-binary-tree-from-top-to-bottom.js "Print binary tree from top to bottom")
+* [从上往下打印二叉树](./nowcoder/jz-offer/print-binary-tree-from-top-to-bottom.js "Print binary tree from top to bottom")
 
-* [二叉搜索树的后序遍历序列](./nowcoder/verify-squence-of-BST.js "Verify squence of BST")
+* [二叉搜索树的后序遍历序列](./nowcoder/jz-offer/verify-squence-of-BST.js "Verify squence of BST")
 
-* [二叉树中和为某一值的路径](./nowcoder/find-path.js "Find path")
+* [二叉树中和为某一值的路径](./nowcoder/jz-offer/find-path.js "Find path")
 
-* [复杂链表的复制](./nowcoder/clone-complex-chain.js "Clone complex chain")
+* [复杂链表的复制](./nowcoder/jz-offer/clone-complex-chain.js "Clone complex chain")
 
-* [数组中只出现一次的数字](./nowcoder/find-nums-appear-once.js "Find nums appear once")
+* [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
 
-* [二叉搜索树与双向链表](./nowcoder/binary-search-tree-and-doubly-linked-list.js "Binary search tree and doubly linked list")
+* [二叉搜索树与双向链表](./nowcoder/jz-offer/binary-search-tree-and-doubly-linked-list.js "Binary search tree and doubly linked list")
 
-* [字符串的排列](./nowcoder/permutation.js "String permutation")
+* [字符串的排列](./nowcoder/jz-offer/permutation.js "String permutation")
+
+* [整数中1出现的次数（从1到n整数中1出现的次数）](./nowcoder/jz-offer/number-of1-between1-and-n-solution.js "Number of 1 between 1 and n solution")
 
   待补充
 
