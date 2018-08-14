@@ -13,13 +13,19 @@
  * @return {Number}
  */
 function NumberOf1Between1AndN_Solution(n) {
-  let [count, i, a, b] = [0, 1]  
+  let [count, i, h, l] = [0, 1]  
   for (i = 1; i <= n; i *= 10) {    
-    a = Math.floor(n / i);
-    b = n % i;    
-    count = count + Math.floor((a + 8) / 10) * i + (a % 10 == 1) * (b + 1);  
+    h = Math.floor(n / i);
+    l = n % i;
+    if (h % 10 == 0) {
+      count += Math.floor(h / 10) * i;
+    } else if (h % 10 == 1) {
+      count += Math.floor(h / 10) * i + (l + 1);
+    } else {
+      count += Math.floor(h / 10 + 1) * i;
+    } 
   }  
   return count;
 }
 
-console.log(NumberOf1Between1AndN_Solution(100));
+console.log(NumberOf1Between1AndN_Solution(123456));
