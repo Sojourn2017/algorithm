@@ -44,6 +44,8 @@
 
 * [整数中1出现的次数（从1到n整数中1出现的次数）](./nowcoder/jz-offer/number-of1-between1-and-n-solution.js "Number of 1 between 1 and n solution")
 
+* [数组中出现次数超过一半的数字](./nowcoder/jz-offer/more-than-half-num-solution.js "More than half num solution")
+
   待补充
 
 ### leetcode
