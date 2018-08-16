@@ -46,6 +46,8 @@
 
 * [数组中出现次数超过一半的数字](./nowcoder/jz-offer/more-than-half-num-solution.js "More than half num solution")
 
+* [丑数](./nowcoder/jz-offer/get-ugly-number-solution.js "Get ugly number solution")
+
   待补充
 
 ### leetcode
