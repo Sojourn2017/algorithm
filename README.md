@@ -48,6 +48,8 @@
 
 * [丑数](./nowcoder/jz-offer/get-ugly-number-solution.js "Get ugly number solution")
 
+* [第一个只出现一次的字符](./nowcoder/jz-offer/first-not-repeating-char.js "First not repeating char")
+
   待补充
 
 ### leetcode
