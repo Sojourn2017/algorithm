@@ -52,6 +52,14 @@
 
   待补充
 
+### JS能力评测
+
+* [查找数组元素位置](./nowcoder/a-test-driven-js-assessment/indexOf.js "Find array element location")
+
+* [数组求和](./nowcoder/a-test-driven-js-assessment/sum.js "Array summation")
+
+* [移除数组中的元素](./nowcoder/a-test-driven-js-assessment/remove.js "Removing elements from arrays")
+
 ### leetcode
 
 * [No.856 Score of Parentheses](./leetcode/score-of-parentheses-856.js "856. Score of Parentheses")
