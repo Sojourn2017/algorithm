@@ -50,6 +50,8 @@
 
 * [第一个只出现一次的字符](./nowcoder/jz-offer/first-not-repeating-char.js "First not repeating char")
 
+* [数字在排序数组中出现的次数](./nowcoder/jz-offer/get-number-of-k.js "Get number of k")
+
   待补充
 
 ### JS能力评测
