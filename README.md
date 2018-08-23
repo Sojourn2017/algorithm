@@ -52,6 +52,8 @@
 
 * [数字在排序数组中出现的次数](./nowcoder/jz-offer/get-number-of-k.js "Get number of k")
 
+* [两个链表的第一个公共结点](./nowcoder/jz-offer/find-first-common-node.js "Find first common node")
+
   待补充
 
 ### JS能力评测
