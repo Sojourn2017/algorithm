@@ -8,6 +8,7 @@
 
 /**
  * @param {Array []} arr
+ * @param {Number} item
  * @return {Array}
  */
 function remove(arr, item) {

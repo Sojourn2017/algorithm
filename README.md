@@ -64,6 +64,12 @@
 
 * [移除数组中的元素](./nowcoder/a-test-driven-js-assessment/remove.js "Removing elements from arrays")
 
+* [移除数组中的元素](./nowcoder/a-test-driven-js-assessment/remove-without-copy.js "Rremove without copy")
+
+* [添加元素](./nowcoder/a-test-driven-js-assessment/append.js "Append")
+
+* [删除数组最后一个元素](./nowcoder/a-test-driven-js-assessment/truncate.js "Delete the last element of the array")
+
 ### leetcode
 
 * [No.856 Score of Parentheses](./leetcode/score-of-parentheses-856.js "856. Score of Parentheses")
