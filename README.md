@@ -64,11 +64,18 @@
 
 * [移除数组中的元素](./nowcoder/a-test-driven-js-assessment/remove.js "Removing elements from arrays")
 
-* [移除数组中的元素](./nowcoder/a-test-driven-js-assessment/remove-without-copy.js "Rremove without copy")
+* [移除数组中的元素2](./nowcoder/a-test-driven-js-assessment/remove-without-copy.js "Rremove without copy")
 
 * [添加元素](./nowcoder/a-test-driven-js-assessment/append.js "Append")
 
 * [删除数组最后一个元素](./nowcoder/a-test-driven-js-assessment/truncate.js "Delete the last element of the array")
+
+
+* [添加元素2](./nowcoder/a-test-driven-js-assessment/prepend.js "Prepend")
+
+* [删除数组第一个元素](./nowcoder/a-test-driven-js-assessment/curtail.js "Delete the first element of the array")
+
+* [数组合并](./nowcoder/a-test-driven-js-assessment/concat.js "Concat")
 
 ### leetcode
 
