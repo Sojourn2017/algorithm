@@ -56,6 +56,8 @@
 
 * [平衡二叉树](./nowcoder/jz-offer/is-balanced-solution.js "Is balanced solution")
 
+* [左旋转字符串](./nowcoder/jz-offer/left-rotate-string.js "Left rotate string")
+
   待补充
 
 ### JS能力评测
@@ -78,6 +80,10 @@
 * [删除数组第一个元素](./nowcoder/a-test-driven-js-assessment/curtail.js "Delete the first element of the array")
 
 * [数组合并](./nowcoder/a-test-driven-js-assessment/concat.js "Concat")
+
+### 前端技能大挑战
+
+* [数组去重](./nowcoder/front-end-challenge/uniq.js "Unique Array")
 
 ### leetcode
 
