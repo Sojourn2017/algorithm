@@ -54,6 +54,8 @@
 
 * [两个链表的第一个公共结点](./nowcoder/jz-offer/find-first-common-node.js "Find first common node")
 
+* [平衡二叉树](./nowcoder/jz-offer/is-balanced-solution.js "Is balanced solution")
+
   待补充
 
 ### JS能力评测
