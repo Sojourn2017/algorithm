@@ -52,11 +52,15 @@
 
 * [数字在排序数组中出现的次数](./nowcoder/jz-offer/get-number-of-k.js "Get number of k")
 
+* [二叉树的深度](./nowcoder/jz-offer/tree-depth.js "Tree depth")
+
 * [两个链表的第一个公共结点](./nowcoder/jz-offer/find-first-common-node.js "Find first common node")
 
 * [平衡二叉树](./nowcoder/jz-offer/is-balanced-solution.js "Is balanced solution")
 
 * [左旋转字符串](./nowcoder/jz-offer/left-rotate-string.js "Left rotate string")
+
+* [和为S的连续正数序列](./nowcoder/jz-offer/find-continuous-sequence.js "Find continuous sequence")
 
   待补充
 
