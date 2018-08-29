@@ -62,6 +62,10 @@
 
 * [和为S的连续正数序列](./nowcoder/jz-offer/find-continuous-sequence.js "Find continuous sequence")
 
+* [翻转单词顺序列](./nowcoder/jz-offer/reverse-sentence.js "Reverse sentence")
+
+* [扑克牌顺子](./nowcoder/jz-offer/is-continuous.js "Is continuous")
+
   待补充
 
 ### JS能力评测
