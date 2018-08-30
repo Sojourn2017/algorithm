@@ -66,6 +66,8 @@
 
 * [扑克牌顺子](./nowcoder/jz-offer/is-continuous.js "Is continuous")
 
+* [孩子们的游戏(圆圈中最后剩下的数)](./nowcoder/jz-offer/last-remaining-solution.js "Last remaining solution")
+
   待补充
 
 ### JS能力评测
