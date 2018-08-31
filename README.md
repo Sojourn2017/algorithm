@@ -121,5 +121,7 @@
 
 * [将整数字符串解析成数字](./others/parsing-string-into-integer.js "将整数字符串解析成数字")
 
+* [数组去重](./others/paintCount.js "Count of Paint")
+
 
   待补充
