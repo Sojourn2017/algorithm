@@ -68,6 +68,8 @@
 
 * [孩子们的游戏(圆圈中最后剩下的数)](./nowcoder/jz-offer/last-remaining-solution.js "Last remaining solution")
 
+* [把字符串转换成整数](./nowcoder/jz-offer/str-to-int.js "String to int")
+
   待补充
 
 ### JS能力评测
@@ -121,7 +123,7 @@
 
 * [将整数字符串解析成数字](./others/parsing-string-into-integer.js "将整数字符串解析成数字")
 
-* [数组去重](./others/paintCount.js "Count of Paint")
+* [最少的绘画笔数](./others/paintCount.js "Count of Paint")
 
 
   待补充
