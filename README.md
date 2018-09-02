@@ -70,6 +70,8 @@
 
 * [把字符串转换成整数](./nowcoder/jz-offer/str-to-int.js "String to int")
 
+* [正则表达式匹配](./nowcoder/jz-offer/match.js "Match String")
+
   待补充
 
 ### JS能力评测
