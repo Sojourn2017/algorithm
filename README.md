@@ -72,6 +72,8 @@
 
 * [正则表达式匹配](./nowcoder/jz-offer/match.js "Match String")
 
+* [表示数值的字符串](./nowcoder/jz-offer/is-numeric.js "Is numeric")
+
   待补充
 
 ### JS能力评测
