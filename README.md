@@ -74,6 +74,8 @@
 
 * [表示数值的字符串](./nowcoder/jz-offer/is-numeric.js "Is numeric")
 
+* [字符流中第一个不重复的字符](./nowcoder/jz-offer/first-appearing-once.js "First appearing once")
+
   待补充
 
 ### JS能力评测
