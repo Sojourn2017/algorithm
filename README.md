@@ -76,6 +76,8 @@
 
 * [字符流中第一个不重复的字符](./nowcoder/jz-offer/first-appearing-once.js "First appearing once")
 
+* [链表中环的入口结点](./nowcoder/jz-offer/entry-node-of-loop.js "Entry node of loop")
+
   待补充
 
 ### JS能力评测
