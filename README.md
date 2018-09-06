@@ -133,5 +133,7 @@
 
 * [最少的绘画笔数](./others/paintCount.js "Count of Paint")
 
+* [JS流程控制](./others/control.js "JS process control")
+
 
   待补充
