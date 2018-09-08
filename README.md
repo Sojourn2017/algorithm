@@ -135,5 +135,12 @@
 
 * [JS流程控制](./others/control.js "JS process control")
 
+* [保卫方案](./others/security-scheme.js "Security scheme")
+
+* [采购单](./others/purchase-order.js "Purchase order")
+
+* [进制均值](./others/average-value-of-different-number-system.js "Average value of different number system")
+
+* [第K个幸运数](./others/the-lucky-number-k.js "The lucky number K")
 
   待补充
