@@ -4,6 +4,8 @@
 
 ### 牛客
 
+#### 剑指Offer
+
 * [斐波那契数列](./nowcoder/jz-offer/fibonacci.js "Fibonacci")
 
 * [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
@@ -78,9 +80,17 @@
 
 * [链表中环的入口结点](./nowcoder/jz-offer/entry-node-of-loop.js "Entry node of loop")
 
+* [删除链表中重复的结点](./nowcoder/jz-offer/delete-duplication.js "Delete duplication of the linked List")
+
+* [删除链表中重复的结点](./nowcoder/jz-offer/get-next.js "Get next node of the linked List")
+
+* [对称的二叉树](./nowcoder/jz-offer/is-symmetrical.js "Is symmetrical")
+
+* [按之字形顺序打印二叉树](./nowcoder/jz-offer/print.js "Print tree")
+
   待补充
 
-### JS能力评测
+#### JS能力评测
 
 * [查找数组元素位置](./nowcoder/a-test-driven-js-assessment/indexOf.js "Find array element location")
 
@@ -101,7 +111,7 @@
 
 * [数组合并](./nowcoder/a-test-driven-js-assessment/concat.js "Concat")
 
-### 前端技能大挑战
+#### 前端技能大挑战
 
 * [数组去重](./nowcoder/front-end-challenge/uniq.js "Unique Array")
 
@@ -142,5 +152,7 @@
 * [进制均值](./others/average-value-of-different-number-system.js "Average value of different number system")
 
 * [第K个幸运数](./others/the-lucky-number-k.js "The lucky number K")
+
+* [幸运数](./others/lucky-number.js "Lucky number")
 
   待补充
