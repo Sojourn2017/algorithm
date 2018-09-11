@@ -86,7 +86,13 @@
 
 * [对称的二叉树](./nowcoder/jz-offer/is-symmetrical.js "Is symmetrical")
 
-* [按之字形顺序打印二叉树](./nowcoder/jz-offer/print.js "Print tree")
+* [按之字形顺序打印二叉树](./nowcoder/jz-offer/print-with-z.js "Print tree with Z")
+
+* [把二叉树打印成多行](./nowcoder/jz-offer/print-serial-line.js "Print tree with serial line")
+
+* [序列化二叉树](./nowcoder/jz-offer/serialize-and-deserialize-tree.js "Serialize & Deserialize tree")
+
+* [二叉搜索树的第k个结点](./nowcoder/jz-offer/k-th-node.js "Kth Node of tree")
 
   待补充
 
@@ -136,6 +142,10 @@
   待补充
 
 ### others
+
+* [模拟赛码网IDE](./others/SAIMAWANG.js "SAIMAWANG")
+
+* [寻找中位数](./others/jd1.js "2018 JD program 1")
 
 * [数组去重](./others/array-remove-repeat-item.js "Array Remove Repeat Item")
 

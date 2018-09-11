@@ -68,35 +68,36 @@ date = `
 
 // write code here
 let a;
-let calc = (arr,len) => {
-  let n = Math.floor(len/2);
-  if (len % 2 == 0) {
-    return (arr[n - 1] + arr[n]) / 2;
-  } else {
-    return arr[n];
-  }
-}
+// let calc = (arr,len) => {
+//   let n = Math.floor(len/2);
+//   if (len % 2 == 0) {
+//     return (arr[n - 1] + arr[n]) / 2;
+//   } else {
+//     return arr[n];
+//   }
+// }
 // 无序数组求中位数，快速排序思想
 let partition = (arr, L, R) => {
   let pivot = arr[R];
   let j = L;
   for (let i = L; i < R; i++) {
     if (arr[i] < pivot) {
-      let temp = arr[j];
-      arr[j] = arr[i];
-      arr[i] = temp;
-      j++
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+      j++;
     }
   }
-  let temp = arr[j];
-  arr[j] = pivot;
-  arr[R] = temp;
+  [arr[j], arr[R]] = [arr[R], arr[j]];
   return j;
 }
-let getMid = (arr, L, R) => {
+let sortHalf = (arr, L, R) => {
   let M = partition(arr, L, R);
-  let n = Math.floor(arr.length / 2);
-
+  let n = Math.floor(R / 2);
+  if (M == n) return;
+  if (M > n) {
+    sortHalf(arr, L, M - 1);
+  } else {
+    sortHalf(arr, M + 1, R);
+  }
 }
 
 while ((a = readInt()) != null) {
@@ -107,5 +108,11 @@ while ((a = readInt()) != null) {
   // arr.sort((a, b) => a-b);
   // let mid = calc(arr, a);
   // print(mid)
-  print(partition(arr, 0, 5));
+  sortHalf(arr, 0, a - 1);
+  let n = Math.floor(a / 2);
+  if (a % 2 == 0) {
+    print((arr[n - 1] + arr[n]) / 2);
+  } else {
+    print(arr[n]);
+  }
 }
