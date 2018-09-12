@@ -94,6 +94,8 @@
 
 * [二叉搜索树的第k个结点](./nowcoder/jz-offer/k-th-node.js "Kth Node of tree")
 
+* [数据流中的中位数](./nowcoder/jz-offer/get-median-of-steam.js "Get median of steam")
+
   待补充
 
 #### JS能力评测
