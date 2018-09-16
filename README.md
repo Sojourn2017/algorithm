@@ -167,4 +167,8 @@
 
 * [幸运数](./others/lucky-number.js "Lucky number")
 
+* [判断数字是否被整除](./others/tenxun1.js "Determine whether the number is divided.")
+
+* [掰巧克力](./others/tenxun2.js "Divide the chocolate.")
+
   待补充
