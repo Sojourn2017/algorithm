@@ -171,4 +171,8 @@
 
 * [掰巧克力](./others/tenxun2.js "Divide the chocolate.")
 
+* [生成对称字符串](./others/sf1.js "Generating symmetric strings.")
+
+* [计算两个时间相差的小时数](./others/sf2.js "Calculate the two hours of time difference.")
+
   待补充
