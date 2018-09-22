@@ -96,6 +96,8 @@
 
 * [数据流中的中位数](./nowcoder/jz-offer/get-median-of-steam.js "Get median of steam")
 
+* [滑动窗口的最大值](./nowcoder/jz-offer/max-in-windows.js "Max in windows")
+
   待补充
 
 #### JS能力评测
