@@ -98,6 +98,8 @@
 
 * [滑动窗口的最大值](./nowcoder/jz-offer/max-in-windows.js "Max in windows")
 
+* [矩阵中的路径](./nowcoder/jz-offer/has-path.js "Has path")
+
   待补充
 
 #### JS能力评测
