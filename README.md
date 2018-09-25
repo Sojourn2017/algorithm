@@ -100,6 +100,8 @@
 
 * [矩阵中的路径](./nowcoder/jz-offer/has-path.js "Has path")
 
+* [机器人的运动范围](./nowcoder/jz-offer/moving-count.js "Moving Count")
+
   待补充
 
 #### JS能力评测
