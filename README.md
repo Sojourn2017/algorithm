@@ -52,11 +52,13 @@
 
 * [第一个只出现一次的字符](./nowcoder/jz-offer/first-not-repeating-char.js "First not repeating char")
 
+* [数组中的逆序对](./nowcoder/jz-offer/inverse-pairs.js "Inverse pairs")
+
+* [两个链表的第一个公共结点](./nowcoder/jz-offer/find-first-common-node.js "Find first common node")
+
 * [数字在排序数组中出现的次数](./nowcoder/jz-offer/get-number-of-k.js "Get number of k")
 
 * [二叉树的深度](./nowcoder/jz-offer/tree-depth.js "Tree depth")
-
-* [两个链表的第一个公共结点](./nowcoder/jz-offer/find-first-common-node.js "Find first common node")
 
 * [平衡二叉树](./nowcoder/jz-offer/is-balanced-solution.js "Is balanced solution")
 
