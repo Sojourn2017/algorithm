@@ -131,6 +131,8 @@
 
 * [数组去重](./nowcoder/front-end-challenge/uniq.js "Unique Array")
 
+* [获取 url 参数](./nowcoder/front-end-challenge/get-url-param.js "Get url param")
+
 ### leetcode
 
 * [No.856 Score of Parentheses](./leetcode/score-of-parentheses-856.js "856. Score of Parentheses")
