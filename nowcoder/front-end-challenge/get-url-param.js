@@ -15,7 +15,7 @@
 /* 
  * @param {String} sUrl
  * @param {String} sKey
- * @return {}
+ * @return {String | Array | Object}
  */
 function getUrlParam(sUrl, sKey) {
   var res = '';

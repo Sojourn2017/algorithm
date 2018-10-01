@@ -133,6 +133,8 @@
 
 * [获取 url 参数](./nowcoder/front-end-challenge/get-url-param.js "Get url param")
 
+* [根据包名，在指定空间中创建对象](./nowcoder/front-end-challenge/namespace.js "Name Space")
+
 ### leetcode
 
 * [No.856 Score of Parentheses](./leetcode/score-of-parentheses-856.js "856. Score of Parentheses")
