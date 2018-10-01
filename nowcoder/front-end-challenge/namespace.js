@@ -16,7 +16,6 @@ function namespace(oNamespace, sPackage) {
   var res = oNamespace;
   var obj = res;
   sPackage.replace(/(\w+)\.?/g, function (m, p) {
-    res;
     obj[p] = typeof obj[p] === 'object' ? obj[p] : {};
     obj = obj[p];
   })
