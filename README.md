@@ -129,11 +129,29 @@
 
 #### 前端技能大挑战
 
-* [数组去重](./nowcoder/front-end-challenge/uniq.js "Unique Array")
+* [修改 this 指向](./nowcoder/front-end-challenge/bind-this.js "Bind this")
 
 * [获取 url 参数](./nowcoder/front-end-challenge/get-url-param.js "Get url param")
 
+* [dom 节点查找](./nowcoder/front-end-challenge/common-parent-node.js "Common parent node")
+
 * [根据包名，在指定空间中创建对象](./nowcoder/front-end-challenge/namespace.js "Name Space")
+
+* [数组去重](./nowcoder/front-end-challenge/uniq.js "Unique Array")
+
+* [斐波那契数列](./nowcoder/front-end-challenge/fibonacci.js "Fibonacci")
+
+* [时间格式化输出](./nowcoder/front-end-challenge/date-format.js "Date format")
+
+* [获取字符串的长度](./nowcoder/front-end-challenge/str-length.js "Str length")
+
+* [邮箱字符串判断](./nowcoder/front-end-challenge/is-available-email.js "Is available email")
+
+* [颜色字符串转换](./nowcoder/front-end-challenge/rgb2hex.js "Rgb 2 hex")
+
+* [将字符串转换为驼峰格式](./nowcoder/front-end-challenge/css-style2-dom-style.js "Css style2 dom style")
+
+* [字符串字符统计](./nowcoder/front-end-challenge/string-count.js "String count")
 
 ### leetcode
 

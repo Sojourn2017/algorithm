@@ -10,7 +10,7 @@
 /* 
  * @param {Object} oNamespace
  * @param {String} sPackage
- * @return {}
+ * @return {Object}
  */
 function namespace(oNamespace, sPackage) {
   var res = oNamespace;

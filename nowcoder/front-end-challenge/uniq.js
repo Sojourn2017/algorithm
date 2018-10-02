@@ -12,26 +12,26 @@ Array.prototype.uniq = function () {
   var res = [];
   var arr = this;
   var hasNaN = false;
-  var indexOf = function (array, val) {
-    for (var i = 0, len = array.length; i < len; i++) {
+  var include = function (array, val) {
+    for (var i = 0, l = array.length; i < l; i++) {
       if (array[i] === val) {
-        return i;
+        return true;
       }
     }
     return false;
   };
-  for (var i = 0, len1 = arr.length; i < len1; i ++) {
-      var val = arr[i];
-      if (indexOf(res, val) === false) {
-          if (val !== val) {
-            if (!hasNaN) {
-              hasNaN = true;
-              res.push(NaN);
-            }
-          } else {
-              res.push(val);
-          }
+  for (var i = 0, len = arr.length; i < len; i++) {
+    var val = arr[i];
+    if (!include(res, val)) {
+      if (val !== val) {
+        if (!hasNaN) {
+          hasNaN = true;
+          res.push(NaN);
+        }
+      } else {
+        res.push(val);
       }
+    }
   }
   return res;
 }
