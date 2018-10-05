@@ -127,6 +127,78 @@
 
 * [数组合并](./nowcoder/a-test-driven-js-assessment/concat.js "Concat")
 
+* [添加元素](./nowcoder/a-test-driven-js-assessment/insert.js "Insert")
+
+* [计数](./nowcoder/a-test-driven-js-assessment/count.js "Count")
+
+* [查找重复元素](./nowcoder/a-test-driven-js-assessment/duplicates.js "Duplicates")
+
+* [求二次方](./nowcoder/a-test-driven-js-assessment/square.js "Square")
+
+* [查找元素位置](./nowcoder/a-test-driven-js-assessment/find-all-occurrences.js "Find all occurrences")
+
+* [避免全局变量](./nowcoder/a-test-driven-js-assessment/globals.js "Globals")
+
+* [正确的函数定义](./nowcoder/a-test-driven-js-assessment/functions.js "Functions")
+
+* [正确的使用parseInt](./nowcoder/a-test-driven-js-assessment/parse2Int.js "Parse2Int")
+
+* [完全等同](./nowcoder/a-test-driven-js-assessment/identity.js "Identity")
+
+* [计时器](./nowcoder/a-test-driven-js-assessment/timer.js "Timer")
+
+* [流程控制](./nowcoder/a-test-driven-js-assessment/process-control.js "Process control")
+
+* [函数传参](./nowcoder/a-test-driven-js-assessment/args-as-array.js "Args as array")
+
+* [函数的上下文](./nowcoder/a-test-driven-js-assessment/speak.js "Speak")
+
+* [返回函数](./nowcoder/a-test-driven-js-assessment/function-function.js "functionFunction")
+
+* [使用闭包](./nowcoder/a-test-driven-js-assessment/make-closures.js "Make closures")
+
+* [二次封装函数](./nowcoder/a-test-driven-js-assessment/partial.js "Partial")
+
+* [使用 arguments](./nowcoder/a-test-driven-js-assessment/use-arguments.js "Use arguments")
+
+* [使用 apply 调用函数](./nowcoder/a-test-driven-js-assessment/call-it.js "Call its")
+
+* [二次封装函数2](./nowcoder/a-test-driven-js-assessment/partial-using-arguments.js "Partial using arguments")
+
+* [柯里化](./nowcoder/a-test-driven-js-assessment/curry-it.js "Curry it")
+
+* [或运算](./nowcoder/a-test-driven-js-assessment/or.js "Or")
+
+* [且运算](./nowcoder/a-test-driven-js-assessment/and.js "And")
+
+* [模块](./nowcoder/a-test-driven-js-assessment/create-module.js "Create module")
+
+* [二进制转换](./nowcoder/a-test-driven-js-assessment/value-at-bit.js "Value at bit")
+
+* [二进制转换2](./nowcoder/a-test-driven-js-assessment/base10.js "Base 10")
+
+* [二进制转换3](./nowcoder/a-test-driven-js-assessment/convert-to-binary.js "Convert to binary")
+
+* [乘法](./nowcoder/a-test-driven-js-assessment/multiply.js "Multiply")
+
+* [改变上下文](./nowcoder/a-test-driven-js-assessment/alter-context.js "Alter context")
+
+* [批量改变对象的属性](./nowcoder/a-test-driven-js-assessment/alter-objects.js "Alter objects")
+
+* [属性遍历](./nowcoder/a-test-driven-js-assessment/iterate.js "Iterate")
+
+* [判断是否包含数字](./nowcoder/a-test-driven-js-assessment/contains-number.js "Contains number")
+
+* [检查重复字符串](./nowcoder/a-test-driven-js-assessment/contains-repeating-letter.js "Contains repeating letter")
+
+* [判断是否以元音字母结尾](./nowcoder/a-test-driven-js-assessment/ends-with-vowel.js "Ends with vowel")
+
+* [获取指定字符串](./nowcoder/a-test-driven-js-assessment/capture-three-numbers.js "Capture three numbers")
+
+* [判断是否符合指定格式](./nowcoder/a-test-driven-js-assessment/matches-pattern.js "Matches pattern")
+
+* [判断是否符合USD格式](./nowcoder/a-test-driven-js-assessment/is-usd.js "Is USD")
+
 #### 前端技能大挑战
 
 * [修改 this 指向](./nowcoder/front-end-challenge/bind-this.js "Bind this")

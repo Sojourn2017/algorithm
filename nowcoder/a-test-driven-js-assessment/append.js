@@ -12,6 +12,8 @@
  * @return {Array}
  */
 function append(arr, item) {
+  // return arr.concat(item);
+  
   var Arr = arr.slice(0);
   Arr.push(item);
   return Arr;

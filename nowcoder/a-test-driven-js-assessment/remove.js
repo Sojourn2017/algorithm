@@ -12,12 +12,14 @@
  * @return {Array}
  */
 function remove(arr, item) {
-  var Arr = arr.slice(0),len = Arr.length;
-  for(var i = 0;i<len;i++){
-      if(Arr[i]==item){
-          Arr.splice(i,1);
-          i--;
-      }
+  // return arr.filter(function(v) {
+  //   return v !== item;
+  // });
+  var res = [];
+  for (var i = 0, len = arr.length; i < len; i++) {
+    if (arr[i] !== item) {
+      res.push(arr[i]);
+    }
   }
-  return Arr;
+  return res;
 }

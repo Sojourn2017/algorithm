@@ -12,8 +12,5 @@
  * @return {Array}
  */
 function prepend(arr, item) {
-  var Arr = arr.slice();
-  var Item = [item];
-  var result = Item.concat(Arr);
-  return result;
+  return [item].concat(arr);
 }

@@ -13,10 +13,12 @@
  * @return {Number}
  */
 function sum(arr) {
+  // return arr.reduce(function(sum, cur) {
+  //   return sum + cur;
+  // }, 0);
   var sum = 0;
-  var len = arr.length;
-  for(var i = 0;i<arr.length;i++){
-      sum += arr[i];
+  for (var i = 0, len = arr.length; i < len; i++) {
+    sum += arr[i];
   }
   return sum;
 }

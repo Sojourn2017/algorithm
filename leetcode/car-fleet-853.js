@@ -12,7 +12,7 @@
 
 
 // How many car fleets will arrive at the destination?
- 
+
 // Example 1:
 
 // Input: target = 12, position = [10,8,0,5,3], speed = [2,4,1,1,3]
@@ -44,7 +44,7 @@ var carFleet = function(target, position, speed) {
   let maxTime = 0;
   let res = 0;
   for (let i = 0; i < len; i++) {
-    let pos = position[i];
+    let pos = position[i]; 
     let time = (target - pos)/speed[i];
     car.push([pos,time]);
   };

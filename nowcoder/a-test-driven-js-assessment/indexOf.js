@@ -16,10 +16,8 @@ function indexOf(arr, item) {
   if (Array.prototype.indexOf) {
     return arr.indexOf(item);
   } else {
-    var len = arr.length;
-    var i;
-    for (i = 0; i < len; i++) {
-      if (arr[i] == item) {
+    for (var i = 0, len = arr.length; i < len; i++) {
+      if (arr[i] === item) {
         return i;
       }
     }

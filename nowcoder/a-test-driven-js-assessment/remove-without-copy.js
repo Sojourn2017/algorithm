@@ -12,12 +12,27 @@
  * @return {Array}
  */
 function removeWithoutCopy(arr, item) {
-  var len = arr.length;
-  for (var i = 0; i < len; i++) {
-    if (arr[i] == item) {
-      arr.splice(i, i + 1);
-      i--;
+  // arr.forEach(function(v, i) {
+  //   if (v === item) {
+  //     arr.splice(i, i + 1);
+  //   }
+  // });
+  // return arr;
+
+  var left = 0,
+    right = 0,
+    count = 0,
+    len = arr.length;
+  while (right < len) {
+    while (arr[right] === item) {
+      count++;
+      right++;
     }
+    arr[left++] = arr[right++];
   }
+  arr.length = len - count;
   return arr;
 }
+
+var a = removeWithoutCopy([1, 2, 2, 3, 4, 2, 2], 2);
+console.log(a);
