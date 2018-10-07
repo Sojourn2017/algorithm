@@ -6,6 +6,14 @@
 
 #### 剑指Offer
 
+* [二维数组中的查找](./nowcoder/jz-offer/find.js "Find")
+
+* [替换空格](./nowcoder/jz-offer/replace-space.js "Replace space")
+
+* [从尾到头打印链表](./nowcoder/jz-offer/print-list-from-tail-to-head.js "Print list from tail to head")
+
+* [重建二叉树](./nowcoder/jz-offer/re-construct-binary-tree.js "Re construct binary tree")
+
 * [斐波那契数列](./nowcoder/jz-offer/fibonacci.js "Fibonacci")
 
 * [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
