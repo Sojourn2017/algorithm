@@ -14,6 +14,8 @@
 
 * [重建二叉树](./nowcoder/jz-offer/re-construct-binary-tree.js "Re construct binary tree")
 
+* [用两个栈实现队列](./nowcoder/jz-offer/queue.js "Queue")
+
 * [斐波那契数列](./nowcoder/jz-offer/fibonacci.js "Fibonacci")
 
 * [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
@@ -284,5 +286,7 @@
 * [生成对称字符串](./others/sf1.js "Generating symmetric strings.")
 
 * [计算两个时间相差的小时数](./others/sf2.js "Calculate the two hours of time difference.")
+
+* [最大映射](./others/maximum-mapping.js "Maximum mapping.")
 
   待补充
