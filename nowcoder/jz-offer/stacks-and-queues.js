@@ -16,3 +16,11 @@ function pop() {
     }
     return outStack.pop();
 }
+
+// let queue = [];
+// function push(node) {
+//   queue.push(node);
+// }
+// function pop() {
+//   return queue.length ? queue.shift() : false;
+// }

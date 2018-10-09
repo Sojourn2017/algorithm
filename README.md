@@ -14,19 +14,25 @@
 
 * [重建二叉树](./nowcoder/jz-offer/re-construct-binary-tree.js "Re construct binary tree")
 
-* [用两个栈实现队列](./nowcoder/jz-offer/queue.js "Queue")
+* [用两个栈来实现队列](./nowcoder/jz-offer/stacks-and-queues.js "use two stacks to achieved queues's push and pop")
+
+* [旋转数组的最小数字](./nowcoder/jz-offer/the-smallest-number-of-rotating-arrays.js "the smallest number of rotating arrays")
 
 * [斐波那契数列](./nowcoder/jz-offer/fibonacci.js "Fibonacci")
+
+* [跳台阶](./nowcoder/jz-offer/jump-floor.js "Jump floor")
+
+* [变态跳台阶](./nowcoder/jz-offer/jump-floor-2.js "Jump floor II")
+
+* [矩形覆盖](./nowcoder/jz-offer/rect-cover.js "Rect cover")
+
+* [二进制中1的个数](./nowcoder/jz-offer/number-of1.js "Number of1")
 
 * [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
 
 * [位运算求1+2+3+...+n](./nowcoder/jz-offer/sum-solution.js "Sum Solution")
 
 * [数组中重复的数](./nowcoder/jz-offer/repeated-number-in-array.js "repeated number in array")
-
-* [用两个栈来实现队列](./nowcoder/jz-offer/stacks-and-queues.js "use two stacks to achieved queues's push and pop")
-
-* [旋转数组的最小数字](./nowcoder/jz-offer/the-smallest-number-of-rotating-arrays.js "the smallest number of rotating arrays")
 
 * [合并两个排序的链表](./nowcoder/jz-offer/merging-two-sorted-lists.js "Merging two sorted lists")
 
