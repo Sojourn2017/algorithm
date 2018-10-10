@@ -26,7 +26,13 @@
 
 * [矩形覆盖](./nowcoder/jz-offer/rect-cover.js "Rect cover")
 
-* [二进制中1的个数](./nowcoder/jz-offer/number-of1.js "Number of1")
+* [二进制中1的个数](./nowcoder/jz-offer/number-of1.js "Number of 1")
+
+* [数值的整数次方](./nowcoder/jz-offer/power.js "Power")
+
+* [调整数组顺序使奇数位于偶数前面](./nowcoder/jz-offer/reorder-array.js "Reorder array")
+
+* [链表中倒数第k个结点](./nowcoder/jz-offer/find-kth-to-tail.js "Find kth to tail")
 
 * [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
 
