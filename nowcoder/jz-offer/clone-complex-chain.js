@@ -19,8 +19,8 @@
  */
 function Clone(pHead) {
   if (!pHead) {
-    return null
-  };
+    return null;
+  }
   let curNode, node, clone, tmp;
   curNode = pHead;
   while (curNode) {

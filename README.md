@@ -34,17 +34,19 @@
 
 * [链表中倒数第k个结点](./nowcoder/jz-offer/find-kth-to-tail.js "Find kth to tail")
 
-* [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
-
-* [位运算求1+2+3+...+n](./nowcoder/jz-offer/sum-solution.js "Sum Solution")
-
-* [数组中重复的数](./nowcoder/jz-offer/repeated-number-in-array.js "repeated number in array")
+* [反转链表](./nowcoder/jz-offer/reverse-list.js "Reverse list")
 
 * [合并两个排序的链表](./nowcoder/jz-offer/merging-two-sorted-lists.js "Merging two sorted lists")
 
 * [树的子结构](./nowcoder/jz-offer/the-substructure-of-a-tree.js "The substructure of a tree")
 
 * [二叉树的镜像](./nowcoder/jz-offer/the-mirror-of-the-two-forked-tree.js "The mirror of the two forked tree")
+
+* [输出指定的时间格式](./nowcoder/jz-offer/format-date.js "Format Date")
+
+* [位运算求1+2+3+...+n](./nowcoder/jz-offer/sum-solution.js "Sum Solution")
+
+* [数组中重复的数](./nowcoder/jz-offer/repeated-number-in-array.js "repeated number in array")
 
 * [顺时针打印矩阵](./nowcoder/jz-offer/clockwise-print-matrix.js "Clockwise print matrix")
 
@@ -60,15 +62,17 @@
 
 * [复杂链表的复制](./nowcoder/jz-offer/clone-complex-chain.js "Clone complex chain")
 
-* [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
-
 * [二叉搜索树与双向链表](./nowcoder/jz-offer/binary-search-tree-and-doubly-linked-list.js "Binary search tree and doubly linked list")
 
 * [字符串的排列](./nowcoder/jz-offer/permutation.js "String permutation")
 
-* [整数中1出现的次数（从1到n整数中1出现的次数）](./nowcoder/jz-offer/number-of1-between1-and-n-solution.js "Number of 1 between 1 and n solution")
-
 * [数组中出现次数超过一半的数字](./nowcoder/jz-offer/more-than-half-num-solution.js "More than half num solution")
+
+* [最小的K个数](./nowcoder/jz-offer/get-least-numbers-solution.js "Get least numbers solution")
+
+* [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
+
+* [整数中1出现的次数（从1到n整数中1出现的次数）](./nowcoder/jz-offer/number-of1-between1-and-n-solution.js "Number of 1 between 1 and n solution")
 
 * [丑数](./nowcoder/jz-offer/get-ugly-number-solution.js "Get ugly number solution")
 

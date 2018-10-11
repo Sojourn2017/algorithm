@@ -51,4 +51,4 @@ root.left.left = new TreeNode(4);
 root.left.right = new TreeNode(7);
 root.right = new TreeNode(12);
 
-console.log(FindPath(root, 22));    // [ [ 10, 5, 7 ], [ 10, 12 ] ]
+console.log(FindPath(root, 22)); // [ [ 10, 5, 7 ], [ 10, 12 ] ]

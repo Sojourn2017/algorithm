@@ -34,4 +34,4 @@ function MoreThanHalfNum_Solution(numbers) {
   return 2 * count > len ? cur : 0;
 }
 
-console.log(MoreThanHalfNum_Solution([1,2,3,2,2,2,5,4,2]));   // 2
+console.log(MoreThanHalfNum_Solution([1, 2, 3, 2, 2, 2, 5, 4, 2])); // 2

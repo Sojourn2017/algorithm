@@ -17,9 +17,7 @@
 
 function Convert(pRootOfTree) {
   if (pRootOfTree == null) return null;
-  let [stack, p, pre, isFirst] = [
-    [], pRootOfTree, null, true
-  ];
+  let [stack, p, pre, isFirst] = [[], pRootOfTree, null, true];
   while (p !== null || stack.length !== 0) {
     while (p !== null) {
       stack.push(p);
@@ -33,7 +31,7 @@ function Convert(pRootOfTree) {
     } else {
       pre.right = p;
       p.left = pre;
-      pre = p;    
+      pre = p;
     }
     p = p.right;
   }

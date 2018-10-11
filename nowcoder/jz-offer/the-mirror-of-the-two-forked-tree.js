@@ -3,7 +3,7 @@
 // 题目描述
 // 操作给定的二叉树，将其变换为源二叉树的镜像。
 // 输入描述:
-// 二叉树的镜像定义：源二叉树 
+// 二叉树的镜像定义：源二叉树
 //     	    8
 //     	   /  \
 //     	  6   10
@@ -25,13 +25,12 @@
 /**
  * @param {TreeNode} root
  */
-function Mirror(root)
-{
-    // write code here
-    if (root === null || root.left === null && root.right === null) {
-        return;
-    }
-    [root.left, root.right] = [root.right, root.left];
-    Mirror(root.right);
-    Mirror(root.left);
+function Mirror(root) {
+  // write code here
+  if (root === null || (root.left === null && root.right === null)) {
+    return;
+  }
+  [root.left, root.right] = [root.right, root.left];
+  Mirror(root.right);
+  Mirror(root.left);
 }

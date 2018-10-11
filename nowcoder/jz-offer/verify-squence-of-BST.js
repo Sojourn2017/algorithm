@@ -10,13 +10,15 @@
  */
 function VerifySquenceOfBST(sequence) {
   let [len, i] = [sequence.length, 0];
-  if (len == 0) { return false; }          
-  while (--len)         {            
-    while (sequence[i++] < sequence[len]);            
-    while (sequence[i++] > sequence[len]);             
-    if (i < len) return false;            
-    i = 0;        
-  }        
+  if (len == 0) {
+    return false;
+  }
+  while (--len) {
+    while (sequence[i++] < sequence[len]);
+    while (sequence[i++] > sequence[len]);
+    if (i < len) return false;
+    i = 0;
+  }
   return true;
 }
 
@@ -33,7 +35,6 @@ function VerifySquenceOfBST(sequence) {
 //   while (arr[start] > arr[root]) { start++;}
 //   return start < root ? false : recursive(arr, 0, l) && recursive(arr, l + 1, root - 1);
 // }
-
 
 // var a = [4,8,6,12,16,14,10];
 // console.log(VerifySquenceOfBST(a));

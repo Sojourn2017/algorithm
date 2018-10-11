@@ -12,17 +12,18 @@
 
 function Permutation(str) {
   var res = [];
-  var s = str.split("").sort().join("");
+  var s = str
+    .split("")
+    .sort()
+    .join("");
   permutationRecursive(res, 0, s);
   return res;
 }
 
 function permutationRecursive(arr, k, str) {
-  if (k == str.length - 1)
-    arr.push(str);
+  if (k == str.length - 1) arr.push(str);
   for (var i = k; i < str.length; i++) {
-    if (i != k && str[k] == str[i])
-      continue;
+    if (i != k && str[k] == str[i]) continue;
     str = swap(str, i, k);
     permutationRecursive(arr, k + 1, str);
   }
@@ -30,9 +31,9 @@ function permutationRecursive(arr, k, str) {
 
 function swap(str, i, k) {
   var arr = str.split("");
-  [arr[i], arr[k]] = [arr[k], arr[i]]
+  [arr[i], arr[k]] = [arr[k], arr[i]];
   return arr.join("");
 }
 
-var str = 'abc';
-console.log(Permutation(str));    // [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
+var str = "abc";
+console.log(Permutation(str)); // [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]

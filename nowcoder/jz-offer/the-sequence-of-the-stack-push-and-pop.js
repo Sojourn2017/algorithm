@@ -16,14 +16,14 @@ function IsPopOrder(pushV, popV) {
   let [i, j, len, arr] = [0, 0, popV.length, []];
   while (j < len) {
     if (i < len) {
-      arr.push(pushV[i++])
+      arr.push(pushV[i++]);
       if (pushV[i - 1] === popV[j]) {
         arr.pop();
         j++;
       }
     } else {
       if (arr.pop() !== popV[j]) {
-        return false
+        return false;
       } else {
         j++;
       }

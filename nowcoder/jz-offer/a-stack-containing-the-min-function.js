@@ -7,19 +7,18 @@
 let stack = {
   sort: [],
   val: []
-}
-function push(node)
-{
+};
+function push(node) {
   let res = stack.val.push(node);
   let [small, big, index] = [0, stack.sort.length, 0];
   let mid = Math.floor(big / 2);
-  while(small + 1 < big) {
-      if (stack.sort[mid] <= node) {
-          small = mid;
-      } else {
-          big = mid;
-      }
-      mid = Math.floor((small + big) / 2);
+  while (small + 1 < big) {
+    if (stack.sort[mid] <= node) {
+      small = mid;
+    } else {
+      big = mid;
+    }
+    mid = Math.floor((small + big) / 2);
   }
   if (stack.sort.length > 1) {
     if (stack.sort[small] < node && stack.sort[big] < node) {
@@ -40,24 +39,38 @@ function push(node)
   }
   // return res;
 }
-function pop()
-{
+function pop() {
   let res = stack.val.pop();
   let index = stack.sort.indexOf(res);
-  stack.sort.splice(index,1);
+  stack.sort.splice(index, 1);
   // return res;
 }
-function top()
-{
+function top() {
   return stack.val[0];
 }
-function min()
-{
+function min() {
   return stack.sort[0];
 }
 
-var oprate = [push(3),min(),push(4),min(),push(2),min(),push(3),min(),pop(),min(),pop(),min(),pop(),min(),push(0),min()];
+var oprate = [
+  push(3),
+  min(),
+  push(4),
+  min(),
+  push(2),
+  min(),
+  push(3),
+  min(),
+  pop(),
+  min(),
+  pop(),
+  min(),
+  pop(),
+  min(),
+  push(0),
+  min()
+];
 
 oprate.forEach(val => {
   console.log(val);
-})
+});

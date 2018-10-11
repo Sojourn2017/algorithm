@@ -15,25 +15,22 @@
  */
 function PrintFromTopToBottom(root) {
   // BFC
-  let [queue, result, node] = [
-    [root],
-    [],
-  ];
+  let [queue, result, node] = [[root], []];
   let node;
   if (!root) {
     return false;
   }
   while (queue.length > 0) {
-    node = queue.shift()
+    node = queue.shift();
     if (node !== null) {
       result.push(node.val);
-    };
+    }
     if (node.left !== null) {
       queue.push(node.left);
-    };
+    }
     if (node.right !== null) {
       queue.push(node.right);
     }
   }
-  return result
+  return result;
 }
