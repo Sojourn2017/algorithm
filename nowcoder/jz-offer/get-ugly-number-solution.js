@@ -9,7 +9,6 @@
  * @param {Number} index
  * @return {Number}
  */
-
 function GetUglyNumber_Solution(index) {
   if (index < 7) {
     return index;

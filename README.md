@@ -70,9 +70,13 @@
 
 * [最小的K个数](./nowcoder/jz-offer/get-least-numbers-solution.js "Get least numbers solution")
 
-* [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
+* [连续子数组的最大和](./nowcoder/jz-offer/find-greatest-sum-of-sub-array.js "Find greatest sum of sub array")
 
 * [整数中1出现的次数（从1到n整数中1出现的次数）](./nowcoder/jz-offer/number-of1-between1-and-n-solution.js "Number of 1 between 1 and n solution")
+
+* [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
+
+* [把数组排成最小的数](./nowcoder/jz-offer/print-min-number.js "Print min number")
 
 * [丑数](./nowcoder/jz-offer/get-ugly-number-solution.js "Get ugly number solution")
 

@@ -13,8 +13,8 @@
  * @return {Number}
  */
 function NumberOf1Between1AndN_Solution(n) {
-  let [count, i, h, l] = [0, 1]  
-  for (i = 1; i <= n; i *= 10) {    
+  let [count, i, h, l] = [0, 1];
+  for (i = 1; i <= n; i *= 10) {
     h = Math.floor(n / i);
     l = n % i;
     if (h % 10 == 0) {
@@ -23,8 +23,8 @@ function NumberOf1Between1AndN_Solution(n) {
       count += Math.floor(h / 10) * i + (l + 1);
     } else {
       count += Math.floor(h / 10 + 1) * i;
-    } 
-  }  
+    }
+  }
   return count;
 }
 
