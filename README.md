@@ -74,8 +74,6 @@
 
 * [整数中1出现的次数（从1到n整数中1出现的次数）](./nowcoder/jz-offer/number-of1-between1-and-n-solution.js "Number of 1 between 1 and n solution")
 
-* [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
-
 * [把数组排成最小的数](./nowcoder/jz-offer/print-min-number.js "Print min number")
 
 * [丑数](./nowcoder/jz-offer/get-ugly-number-solution.js "Get ugly number solution")
@@ -91,6 +89,8 @@
 * [二叉树的深度](./nowcoder/jz-offer/tree-depth.js "Tree depth")
 
 * [平衡二叉树](./nowcoder/jz-offer/is-balanced-solution.js "Is balanced solution")
+
+* [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
 
 * [左旋转字符串](./nowcoder/jz-offer/left-rotate-string.js "Left rotate string")
 

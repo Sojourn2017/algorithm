@@ -9,7 +9,6 @@
  * @param {String} str
  * @return {Number}
  */
-
 function FirstNotRepeatingChar(str) {
   let obj = Object.create(null);
   for (let i = 0, len = str.length; i < len; i++) {
@@ -21,7 +20,7 @@ function FirstNotRepeatingChar(str) {
   }
   for (let item in obj) {
     if (obj[item] == 1) {
-      return Array.prototype.indexOf.call(str, item);
+      return str.indexOf(item);
     }
   }
   return -1;

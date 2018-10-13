@@ -9,14 +9,13 @@
  * @return {Number}
  */
 function GetNumberOfK(data, k) {
-  // write code here
   let start = 0;
   let len = data.length;
   let end = len - 1;
   if (len == 0 || data[0] > k || data[end] < k) {
-    return 0
-  };
-  start = (function (data, start, end, k) {
+    return 0;
+  }
+  start = ((data, start, end, k) => {
     let mid, val;
     while (start < end) {
       mid = start + Math.floor((end - start) / 2);
@@ -26,7 +25,7 @@ function GetNumberOfK(data, k) {
       } else if (val > k) {
         end = mid - 1;
       } else {
-        if (start == mid || (data[mid - 1] != k)) {
+        if (start == mid || data[mid - 1] != k) {
           return mid;
         } else {
           end = mid - 1;
@@ -36,9 +35,9 @@ function GetNumberOfK(data, k) {
     return data[start] == k ? start : -1;
   })(data, start, end, k);
   if (start == -1) {
-    return 0
-  };
-  end = (function (data, start, end, k) {
+    return 0;
+  }
+  end = ((data, start, end, k) => {
     let mid, val;
     while (start < end) {
       mid = start + Math.floor((end - start) / 2);
@@ -60,4 +59,22 @@ function GetNumberOfK(data, k) {
   return end - start + 1;
 }
 
-console.log(GetNumberOfK([1, 3, 3, 3, 3, 4, 5], 2));
+function GetNumberOfK(data, k) {
+  return getIndex(data, k + 0.5) - getIndex(data, k - 0.5);
+}
+
+function getIndex(data, k) {
+  let s = 0;
+  let e = data.length - 1;
+  while (s <= e) {
+    let m = ((e - s) >> 1) + s;
+    if (data[m] < k) {
+      s = m + 1;
+    } else if (data[m] > k) {
+      e = m - 1;
+    }
+  }
+  return s;
+}
+
+console.log(GetNumberOfK([1, 3, 3, 3, 3, 5, 5, 5], 4));
