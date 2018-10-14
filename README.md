@@ -92,9 +92,11 @@
 
 * [数组中只出现一次的数字](./nowcoder/jz-offer/find-nums-appear-once.js "Find nums appear once")
 
-* [左旋转字符串](./nowcoder/jz-offer/left-rotate-string.js "Left rotate string")
-
 * [和为S的连续正数序列](./nowcoder/jz-offer/find-continuous-sequence.js "Find continuous sequence")
+
+* [和为S的两个数字](./nowcoder/jz-offer/find-numbers-with-sum.js "Find numbers with sum")
+
+* [左旋转字符串](./nowcoder/jz-offer/left-rotate-string.js "Left rotate string")
 
 * [翻转单词顺序列](./nowcoder/jz-offer/reverse-sentence.js "Reverse sentence")
 
