@@ -17,6 +17,7 @@
  */
 function ReverseSentence(str) {
   // return str.split(" ").reverse().join(" ");
+
   let [res, word] = ["", ""];
   for (let i = 0, len = str.length; i < len; i++) {
     let c = str[i];

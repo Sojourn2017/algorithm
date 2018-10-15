@@ -17,10 +17,10 @@ function LeftRotateString(str, n) {
 }
 
 function substr(str, start, count) {
-  if (typeof str != 'string') return "";
+  if (typeof str != "string") return "";
   let [s, len, st, en] = ["", str.length];
-  st = typeof start == 'number' && start >= 0 ? start : 0;
-  en = typeof count == 'number' && count >= 0 ? count : len;
+  st = typeof start == "number" && start >= 0 ? start : 0;
+  en = typeof count == "number" && count >= 0 ? count : len;
   while (st < en && st < len) {
     s += str[st];
     st++;
@@ -28,4 +28,4 @@ function substr(str, start, count) {
   return s;
 }
 
-console.log(LeftRotateString('abcdefg', 0))
+console.log(LeftRotateString("abcdefg", 0));
