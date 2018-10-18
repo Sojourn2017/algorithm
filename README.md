@@ -104,6 +104,10 @@
 
 * [孩子们的游戏(圆圈中最后剩下的数)](./nowcoder/jz-offer/last-remaining-solution.js "Last remaining solution")
 
+* [求1+2+3+...+n](./nowcoder/jz-offer/sum-solution.js "Sum solution")
+
+* [不用加减乘除做加法](./nowcoder/jz-offer/add.js "Add")
+
 * [把字符串转换成整数](./nowcoder/jz-offer/str-to-int.js "String to int")
 
 * [正则表达式匹配](./nowcoder/jz-offer/match.js "Match String")

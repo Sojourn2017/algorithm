@@ -17,7 +17,9 @@
  * @return {Number}
  */
 function LastRemaining_Solution(n, m) {
-  if (n <= 0) {return -1;}
+  if (n <= 0) {
+    return -1;
+  }
   let [sum, index, count, arr] = [0, 0, n, []];
   for (let i = 0; i < count; i++) {
     arr.push(i);
@@ -26,10 +28,10 @@ function LastRemaining_Solution(n, m) {
     index = (m - 1 + index) % count;
     console.log(arr[index]);
     sum += arr[index];
-    arr.splice(index,1);
+    arr.splice(index, 1);
     count--;
   }
-  return n*(n-1)/2 - sum;
+  return (n * (n - 1)) / 2 - sum;
 }
 
-console.log(LastRemaining_Solution(5,3));
+console.log(LastRemaining_Solution(5, 3));

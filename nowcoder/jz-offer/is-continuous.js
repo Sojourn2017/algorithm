@@ -8,8 +8,8 @@
 // 方片5”,“Oh My God!”不是顺子.....LL不高兴了,他想了想,
 // 决定大\小 王可以看成任何数字,并且A看作1,J为11,Q为12,K为13。
 // 上面的5张牌就可以变成“1,2,3,4,5”(大小王分别看作2和4),
-// “So Lucky!”。LL决定去买体育彩票啦。 
-// 现在,要求你使用这幅牌模拟上面的过程,然后告诉我们LL的运气如何， 
+// “So Lucky!”。LL决定去买体育彩票啦。
+// 现在,要求你使用这幅牌模拟上面的过程,然后告诉我们LL的运气如何，
 // 如果牌能组成顺子就输出true，否则就输出false。
 // 为了方便起见,你可以认为大小王是0。
 
@@ -19,11 +19,17 @@
  */
 function IsContinuous(numbers) {
   let [len, flag, max, min] = [numbers.length, 0, 0, 13];
-  if (len !== 5) {return false;}
+  if (len !== 5) {
+    return false;
+  }
   for (let i = 0; i < 5; i++) {
     let num = numbers[i];
-    if (num === 0) {continue;}
-    if (num < 0 || num > 13 || (flag >> num & 1) == 1) {return false;}
+    if (num === 0) {
+      continue;
+    }
+    if (num < 0 || num > 13 || ((flag >> num) & 1) == 1) {
+      return false;
+    }
     flag |= 1 << num;
     max = max > num ? max : num;
     min = min < num ? min : num;
@@ -31,4 +37,4 @@ function IsContinuous(numbers) {
   return max - min < 5 ? true : false;
 }
 
-console.log(IsContinuous([1,3,2,6,4]));
+console.log(IsContinuous([1, 3, 2, 6, 4]));
