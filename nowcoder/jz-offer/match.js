@@ -13,7 +13,6 @@
  * @param {String} pattern
  * @return {boolean}
  */
-//s, pattern都是字符串
 function match(s, pattern) {
   let [sLen, pLen] = [s.length, pattern.length];
   if (sLen === pLen && s === pattern) {

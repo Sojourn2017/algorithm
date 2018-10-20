@@ -20,34 +20,18 @@
 function StrToInt(str) {
   // var num = Number(str);
   // return num === num ? num : 0;
-  let len = str.length;
-  if (len < 1) {
-    return 0;
+
+  // return /^([+-]\d+|[1-9]\d*|0)$/.test(str) ? -(-str) : 0;
+
+  const len = str.length;
+  if (len < 1) return 0;
+  const s0 = str[0].charCodeAt() - 48;
+  if ((s0 !== -5 && s0 !== -3 && s0 < 0) || s0 > 9) return 0;
+  for (let i = 1; i < len; i++) {
+    let val = str[i].charCodeAt() - 48;
+    if (val < 0 || val > 9) return 0;
   }
-  let flag = false;
-  let res = 0;
-  for (let i = 0, len = str.length; i < len; i++) {
-    let asc = str[i].charCodeAt();
-    let val = asc - 48;
-    if (i == 0) {
-      if (asc == 45) {
-        flag = true;
-      } else if (asc == 43) {
-        flag = false;
-      } else if (val >= 0 && val < 10) {
-        res += val * 10 ** (len - i - 1);
-      } else {
-        return 0;
-      }
-    } else {
-      if (val >= 0 && val < 10) {
-        res += val * 10 ** (len - i - 1);
-      } else {
-        return 0;
-      }
-    }
-  }
-  return flag ? 0 - res : res;
+  return -str === -str ? -(-str) : 0;
 }
 
-console.log(StrToInt('-2147483647'));
+console.log(StrToInt("+"));

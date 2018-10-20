@@ -110,6 +110,10 @@
 
 * [把字符串转换成整数](./nowcoder/jz-offer/str-to-int.js "String to int")
 
+* [数组中重复的数字](./nowcoder/jz-offer/duplicate.js "Duplicate")
+
+* [构建乘积数组](./nowcoder/jz-offer/multiply.js "Multiply")
+
 * [正则表达式匹配](./nowcoder/jz-offer/match.js "Match String")
 
 * [表示数值的字符串](./nowcoder/jz-offer/is-numeric.js "Is numeric")

@@ -5,7 +5,10 @@
 // 要求不能使用乘除法、for、while、if、else、switch、case等关键字
 // 及条件判断语句（A?B:C）。
 
-
+/**
+ * @param {Number} n
+ * @return {Number}
+ */
 function Sum_Solution(n) {
   var result = 0;
   var a = n;
