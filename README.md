@@ -124,7 +124,7 @@
 
 * [删除链表中重复的结点](./nowcoder/jz-offer/delete-duplication.js "Delete duplication of the linked List")
 
-* [删除链表中重复的结点](./nowcoder/jz-offer/get-next.js "Get next node of the linked List")
+* [二叉树的下一个结点](./nowcoder/jz-offer/get-next.js "Get next node of the linked List")
 
 * [对称的二叉树](./nowcoder/jz-offer/is-symmetrical.js "Is symmetrical")
 

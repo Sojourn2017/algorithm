@@ -23,9 +23,9 @@ function isSymmetrical(pRoot) {
 function isEqual(l, r) {
   if (l == null && r == null) return true;
   if (l !== null && r !== null) {
-    return l.val === r.val 
-      && isEqual(l.left, r.right) 
-      && isEqual(l.right, r.left);
+    return (
+      l.val === r.val && isEqual(l.left, r.right) && isEqual(l.right, r.left)
+    );
   }
   return false;
 }

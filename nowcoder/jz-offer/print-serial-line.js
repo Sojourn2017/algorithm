@@ -4,9 +4,9 @@
 // 从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行。
 
 function TreeNode(x) {
-    this.val = x;
-    this.left = null;
-    this.right = null;
+  this.val = x;
+  this.left = null;
+  this.right = null;
 }
 
 /**
@@ -23,8 +23,12 @@ function Print(pRoot) {
     for (let i = 0, len = queue.length; i < len; i++) {
       let item = queue.shift();
       values.push(item.val);
-      if (item.left) {queue.push(item.left)}
-      if (item.right) {queue.push(item.right)}
+      if (item.left) {
+        queue.push(item.left);
+      }
+      if (item.right) {
+        queue.push(item.right);
+      }
     }
     res.push(values);
   }

@@ -17,10 +17,10 @@ function TreeNode(x) {
  */
 function Print(pRoot) {
   if (pRoot == null) return [];
-  let [level, res, isOdd] = [[pRoot], [], false]
+  let [level, res, isOdd] = [[pRoot], [], false];
   while (level.length) {
     let [nextLevel, values] = [[], []];
-    if ((isOdd=!isOdd)) {
+    if ((isOdd = !isOdd)) {
       for (let i = 0, len = level.length; i < len; i++) {
         let item = level[i];
         values.push(item.val);

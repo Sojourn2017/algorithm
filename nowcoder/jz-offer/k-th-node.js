@@ -38,4 +38,4 @@ tree.right = new TreeNode(10);
 tree.right.left = new TreeNode(9);
 tree.right.right = new TreeNode(11);
 
-console.log(KthNode(tree, 1))
+console.log(KthNode(tree, 1));

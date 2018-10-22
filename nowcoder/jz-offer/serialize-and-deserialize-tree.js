@@ -16,18 +16,18 @@ function TreeNode(x) {
 let arr = [];
 let treeToArr = (pRoot, arr) => {
   if (!pRoot) {
-    arr.push('#');
+    arr.push("#");
     return;
   }
   arr.push(pRoot.val);
-  treeToArr(pRoot.left, arr)
-  treeToArr(pRoot.right, arr)
-}
+  treeToArr(pRoot.left, arr);
+  treeToArr(pRoot.right, arr);
+};
 
 function Serialize(pRoot) {
   arr = [];
   treeToArr(pRoot, arr);
-  return arr.join('');
+  return arr.join("");
 }
 
 /**
@@ -45,7 +45,7 @@ let arrToTree = (arr, node) => {
     node.right = arrToTree(arr, node.right);
   }
   return node;
-}
+};
 function Deserialize(s) {
   if (!arr.length) {
     return null;
@@ -54,7 +54,6 @@ function Deserialize(s) {
   node = arrToTree(arr, node);
   return node;
 }
-
 
 const tree = new TreeNode(8);
 
@@ -67,4 +66,4 @@ tree.right.left = new TreeNode(9);
 tree.right.right = new TreeNode(11);
 
 console.log(Serialize(tree));
-console.log(Deserialize(''));
+console.log(Deserialize(""));

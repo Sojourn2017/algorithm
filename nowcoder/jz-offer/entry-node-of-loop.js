@@ -13,7 +13,8 @@
  * @return {ListNode|null}
  */
 function EntryNodeOfLoop(pHead) {
-  if (pHead === null || pHead.next === null || pHead.next.next === null) return null;
+  if (pHead === null || pHead.next === null || pHead.next.next === null)
+    return null;
   let [slow, fast] = [pHead, pHead];
   while (fast !== null) {
     slow = slow.next;
