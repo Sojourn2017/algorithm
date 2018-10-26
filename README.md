@@ -283,6 +283,11 @@
 
 * [No.3 无重复字符的最长子串](./leetcode/top-interview-questions/array-and-strings/longest-substring-without-repeating-characters.js "3. Longest Substring Without Repeating Characters")
 
+* [No.2 两数相加](./leetcode/add-two-numbers-2.js "1.Add two numbers")
+
+* [No.1 两数之和](./leetcode/two-sum-1.js "1.Two sum")
+
+
   待补充
 
 ### others
