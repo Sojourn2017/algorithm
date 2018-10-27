@@ -281,6 +281,8 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.4 两个排序数组的中位数](./leetcode/find-median-sorted-arrays-4.js "4.Find median sorted arrays")
+
 * [No.3 无重复字符的最长子串](./leetcode/top-interview-questions/array-and-strings/longest-substring-without-repeating-characters.js "3. Longest Substring Without Repeating Characters")
 
 * [No.2 两数相加](./leetcode/add-two-numbers-2.js "1.Add two numbers")
