@@ -267,27 +267,29 @@
 
 ### leetcode
 
-* [No.856 Score of Parentheses](./leetcode/score-of-parentheses-856.js "856. Score of Parentheses")
+* [No.856 Score of Parentheses](./leetcode/856-score-of-parentheses.js "856. Score of Parentheses")
 
-* [No.854 K-Similar 字符串](./leetcode/k-similar-strings-854.js "854. K Similar Strings")
+* [No.854 K-Similar 字符串](./leetcode/854-k-similar-strings.js "854. K Similar Strings")
 
-* [No.853 车队](./leetcode/car-fleet-853.js "853. Car Fleet")
+* [No.853 车队](./leetcode/853-car-fleet.js "853. Car Fleet")
 
-* [No.848 字母移位](./leetcode/shifting-letters-848.js "848. Shifting Letters")
+* [No.848 字母移位](./leetcode/848-shifting-letters.js "848. Shifting Letters")
 
-* [No.847 最短路径访问所有节点](./leetcode/shortest-path-visiting-all-nodes-847.js "847. Shortest Path Visiting All Nodes")
+* [No.847 最短路径访问所有节点](./leetcode/847-shortest-path-visiting-all-nodes.js "847. Shortest Path Visiting All Nodes")
 
-* [No.846 一手顺子](./leetcode/hand-of-straights-846.js "846. Hand of Straights")
+* [No.846 一手顺子](./leetcode/846-hand-of-straights.js "846. Hand of Straights")
 
-* [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
+* [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
-* [No.4 两个排序数组的中位数](./leetcode/find-median-sorted-arrays-4.js "4.Find median sorted arrays")
+* [No.5 最长回文子串](./leetcode/5-longest-palindrome.js "5.Longest palindrome")
 
-* [No.3 无重复字符的最长子串](./leetcode/top-interview-questions/array-and-strings/longest-substring-without-repeating-characters.js "3. Longest Substring Without Repeating Characters")
+* [No.4 两个排序数组的中位数](./leetcode/4-find-median-sorted-arrays.js "4.Find median sorted arrays")
 
-* [No.2 两数相加](./leetcode/add-two-numbers-2.js "1.Add two numbers")
+* [No.3 无重复字符的最长子串](./leetcode/top-interview-questions/array-and-strings/3-longest-substring-without-repeating-characters.js "3. Longest Substring Without Repeating Characters")
 
-* [No.1 两数之和](./leetcode/two-sum-1.js "1.Two sum")
+* [No.2 两数相加](./leetcode/2-add-two-numbers.js "1.Add two numbers")
+
+* [No.1 两数之和](./leetcode/1-two-sum.js "1.Two sum")
 
 
   待补充
