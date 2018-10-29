@@ -281,6 +281,14 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.9 回文数](./leetcode/9-palindrome-number.js "9.Palindrome Number")
+
+* [No.8 字符串转整数 (atoi)](./leetcode/8-string-to-integer-atoi.js "8.String to Integer (atoi)")
+
+* [No.7 反转整数](./leetcode/7-reverse-integer.js "7.Reverse Integer")
+
+* [No.6 Z字形变换](./leetcode/6-zig-zag-conversion.js "6.ZigZag Conversion")
+
 * [No.5 最长回文子串](./leetcode/5-longest-palindrome.js "5.Longest palindrome")
 
 * [No.4 两个排序数组的中位数](./leetcode/4-find-median-sorted-arrays.js "4.Find median sorted arrays")
