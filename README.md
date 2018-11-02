@@ -281,6 +281,8 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.13 罗马数字转整数](./leetcode/13-roman-to-integer.js "13.Roman to Integer")
+
 * [No.12 整数转罗马数字](./leetcode/12-integer-to-roman.js "12.Integer to Roman")
 
 * [No.11 盛最多水的容器](./leetcode/11-container-with-most-water.js "11.Container With Most Water")

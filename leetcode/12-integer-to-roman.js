@@ -47,8 +47,8 @@
  * @return {string}
  */
 var intToRoman = function(num) {
-  let valArr = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
-  let strArr = [
+  let values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+  let digits = [
     'M',
     'CM',
     'D',
@@ -64,10 +64,10 @@ var intToRoman = function(num) {
     'I'
   ];
   var res = '';
-  for (let i = 0; i < valArr.length; i++) {
-    while (num >= valArr[i]) {
-      num -= valArr[i];
-      res += strArr[i];
+  for (let i = 0, len = values.length; i < len; i++) {
+    while (num >= values[i]) {
+      num -= values[i];
+      res += digits[i];
     }
   }
   return res;
