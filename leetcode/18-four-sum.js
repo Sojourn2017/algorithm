@@ -31,18 +31,19 @@ var fourSum = function(nums, target) {
   let len = nums.length;
   let [one, two, three, four] = [0, 0, 0, len - 1];
   while (one < four) {
-    if ((one == 0 || (one > 0 && nums[one] != nums[one - 1])) && (four == len - 1 || (nums[four] != nums[four + 1]))) {
-      two = one + 1;
-      three = four - 1;
-      sum = target - nums[one] - nums[four];
+    let [val1, val4] = [nums[one], nums[four]];
+     if ((one == 0 || (one > 0 && val1 != nums[one - 1])) && (four == len - 1 || (val4 != nums[four + 1]))) {
+      [two, three] = [one + 1, four - 1];
+      let [val2, val3] = [nums[two], nums[three]]
+      let sum = target - val1 - val4;
       while (two < three) {
-        if (nums[two] + nums[three] == sum) {
-          res.push([nums[one], nums[two], nums[three], nums[four]]);
-          while (two < three && nums[two] == nums[two + 1]) two++;
-          while (two < three && nums[three] == nums[three - 1]) three--;
+        if (val2 + val3 == sum) {
+          res.push([val1, val2, val3, val4]);
+          while (two < three && val2 == nums[two + 1]) two++;
+          while (two < three && val3 == nums[three - 1]) three--;
           two++;
           three--;
-        } else if (nums[two] + nums[three] < sum) two++;
+        } else if (val2 + val3 < sum) two++;
         else three--;
       }
     }
