@@ -281,6 +281,8 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.21 合并两个有序链表](./leetcode/21-merge-two-sorted-lists.js "21. Merge Two Sorted Lists")
+
 * [No.20 有效的括号](./leetcode/20-valid-parentheses.js "20. Valid Parentheses")
 
 * [No.19 删除链表的倒数第N个节点](./leetcode/19-remove-nth-node-from-end-of-list.js "19. Remove nth node from end of list")
