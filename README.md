@@ -283,6 +283,10 @@
 
 * [No.26 删除排序数组中的重复项](./leetcode/26-remove-duplicates-from-sorted-array.js "26. Remove Duplicates from Sorted Array")
 
+* [No.23 合并K个排序链表](./leetcode/23-merge-k-sorted-lists.js "23. Merge k Sorted Lists")
+
+* [No.22 括号生成](./leetcode/22-generate-parentheses.js "22. Generate Parentheses")
+
 * [No.21 合并两个有序链表](./leetcode/21-merge-two-sorted-lists.js "21. Merge Two Sorted Lists")
 
 * [No.20 有效的括号](./leetcode/20-valid-parentheses.js "20. Valid Parentheses")
