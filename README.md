@@ -281,6 +281,8 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.28 实现strStr()](./leetcode/28-implement-str-str.js "28. Implement strStr()")
+
 * [No.27 移除元素](./leetcode/27-remove-element.js "27. Remove Element")
 
 * [No.26 删除排序数组中的重复项](./leetcode/26-remove-duplicates-from-sorted-array.js "26. Remove Duplicates from Sorted Array")
