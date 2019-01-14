@@ -281,6 +281,8 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.29 两数相除](./leetcode/29-divide-two-integers.js "29. Divide Two Integers")
+
 * [No.28 实现strStr()](./leetcode/28-implement-str-str.js "28. Implement strStr()")
 
 * [No.27 移除元素](./leetcode/27-remove-element.js "27. Remove Element")
