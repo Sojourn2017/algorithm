@@ -281,6 +281,8 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.35 搜索插入位置](./leetcode/35.搜索插入位置.js "35. search-insert-position")
+
 * [No.30 串联所有单词的子串](./leetcode/30-substring-with-concatenation-of-all-words.js "30. Substring with Concatenation of All Words")
 
 * [No.29 两数相除](./leetcode/29-divide-two-integers.js "29. Divide Two Integers")
