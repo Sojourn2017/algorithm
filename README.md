@@ -281,6 +281,12 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.69 x-的平方根](./leetcode/69.x-的平方根.js "69. Sqrt(x)")
+
+* [No.67 二进制求和](./leetcode/67.二进制求和.js "67. Add binary")
+
+* [No.66 加一](./leetcode/66.加一.js "66. Plus One")
+
 * [No.58 最后一个单词的长度](./leetcode/58.最后一个单词的长度.js "58. Length of last word")
 
 * [No.53 最大子序和](./leetcode/53.最大子序和.js "53. Maximum Subarray")
