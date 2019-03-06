@@ -281,6 +281,14 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.100 相同的树](./leetcode/100.相同的树.js "100. Same Tree")
+
+* [No.88 合并两个有序数组](./leetcode/88.合并两个有序数组.js "88. Merge Sorted Array")
+
+* [No.83 删除排序链表中的重复元素](./leetcode/83.删除排序链表中的重复元素.js "83. Remove Duplicates from Sorted List")
+
+* [No.70 爬楼梯](./leetcode/70.爬楼梯.js "70. Climbing Stairs")
+
 * [No.69 x-的平方根](./leetcode/69.x-的平方根.js "69. Sqrt(x)")
 
 * [No.67 二进制求和](./leetcode/67.二进制求和.js "67. Add binary")
