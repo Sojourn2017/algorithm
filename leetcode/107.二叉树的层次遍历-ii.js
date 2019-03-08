@@ -65,17 +65,18 @@ var levelOrderBottom = function(root) {
   return arr;
 };
 
-function TreeNode(val) {
-  this.val = val;
-  this.left = this.right = null;
-}
+// // test
+// function TreeNode(val) {
+//   this.val = val;
+//   this.left = this.right = null;
+// }
 
-let arr = [3,9,20,null,null,15,7];
+// let arr = [3,9,20,null,null,15,7];
 
-let node = new TreeNode(3);
-node.left = new TreeNode(9);
-node.right = new TreeNode(20);
-node.right.left = new TreeNode(15);
-node.right.right = new TreeNode(7);
+// let node = new TreeNode(3);
+// node.left = new TreeNode(9);
+// node.right = new TreeNode(20);
+// node.right.left = new TreeNode(15);
+// node.right.right = new TreeNode(7);
 
-levelOrderBottom(node)
+// levelOrderBottom(node)

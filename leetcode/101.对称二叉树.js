@@ -62,7 +62,7 @@
 
 // iteration
 var isSymmetric = function(root) {
-  if (root === null) return true;
+  if (!root) return true;
   const leftStack = [root.left];
   const rightStack = [root.right];
   while (leftStack.length > 0 && rightStack.length > 0) {

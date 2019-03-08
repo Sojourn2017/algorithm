@@ -281,6 +281,14 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.112 路径总和](./leetcode/112.路径总和.js "112. Path Sum")
+
+* [No.111 二叉树的最小深度](./leetcode/111.二叉树的最小深度.js "111. Minimum Depth of Binary Tree")
+
+* [No.110 平衡二叉树](./leetcode/110.平衡二叉树.js "110. Balanced Binary Tree")
+
+* [No.108 将有序数组转换为二叉搜索树](./leetcode/108.将有序数组转换为二叉搜索树.js "108. Convert Sorted Array to Binary Search Tree")
+
 * [No.107 二叉树的层次遍历-ii](./leetcode/107.二叉树的层次遍历-ii.js "107. Binary Tree Level Order Traversal II")
 
 * [No.104 二叉树的最大深度](./leetcode/104.二叉树的最大深度.js "104. Maximum Depth of Binary Tree")
@@ -371,6 +379,8 @@
   待补充
 
 ### others
+
+* [将数组转换为二叉树](./others/render-array-to-tree.js "Render Array To Tree")
 
 * [模拟赛码网IDE](./others/SAIMAWANG.js "SAIMAWANG")
 
