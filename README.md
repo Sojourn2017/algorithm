@@ -281,6 +281,14 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.122 买卖股票的最佳时机-ii](./leetcode/122.买卖股票的最佳时机-ii.js "122. Best Time to Buy and Sell Stock II")
+
+* [No.121 买卖股票的最佳时机](./leetcode/121.买卖股票的最佳时机.js "121. Best Time to Buy and Sell Stock")
+
+* [No.119 杨辉三角-ii](./leetcode/119.杨辉三角-ii.js "119. Pascal's Triangle II")
+
+* [No.118 杨辉三角](./leetcode/118.杨辉三角.js "118. Pascal's Triangle")
+
 * [No.112 路径总和](./leetcode/112.路径总和.js "112. Path Sum")
 
 * [No.111 二叉树的最小深度](./leetcode/111.二叉树的最小深度.js "111. Minimum Depth of Binary Tree")
