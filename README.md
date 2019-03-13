@@ -281,6 +281,10 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.136 只出现一次的数字](./leetcode/136.只出现一次的数字.js "136. Single Number")
+
+* [No.125 验证回文串](./leetcode/125.验证回文串.js "125. Valid Palindrome")
+
 * [No.122 买卖股票的最佳时机-ii](./leetcode/122.买卖股票的最佳时机-ii.js "122. Best Time to Buy and Sell Stock II")
 
 * [No.121 买卖股票的最佳时机](./leetcode/121.买卖股票的最佳时机.js "121. Best Time to Buy and Sell Stock")
