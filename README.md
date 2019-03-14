@@ -281,6 +281,12 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.160 相交链表](./leetcode/160.相交链表.js "160. Intersection of Two Linked Lists")
+
+* [No.155 最小栈](./leetcode/155.最小栈.js "155. Min Stack")
+
+* [No.141 环形链表](./leetcode/141.环形链表.js "141. Linked List Cycle")
+
 * [No.136 只出现一次的数字](./leetcode/136.只出现一次的数字.js "136. Single Number")
 
 * [No.125 验证回文串](./leetcode/125.验证回文串.js "125. Valid Palindrome")
