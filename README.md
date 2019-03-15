@@ -281,6 +281,24 @@
 
 * [No.334 递增的三元子序列](./leetcode/top-interview-questions/array-and-strings/334-increasing-triplet-subsequence.js "334. Increasing Triplet Subsequence")
 
+* [No.198 打家劫舍](./leetcode/198.打家劫舍.js "198. House Robber")
+
+* [No.191 位-1-的个数](./leetcode/191.位-1-的个数.js "191. Number of 1 Bits")
+
+* [No.190 颠倒二进制位](./leetcode/190.颠倒二进制位.js "190. Reverse Bits")
+
+* [No.189 旋转数组](./leetcode/189.旋转数组.js "189. Rotate Array")
+
+* [No.172 阶乘后的零](./leetcode/172.阶乘后的零.js "172. Factorial Trailing Zeroes")
+
+* [No.171 excel表列序号](./leetcode/171.excel表列序号.js "171. Excel Sheet Column Number")
+
+* [No.169 求众数](./leetcode/169.求众数.js "169. Majority Element")
+
+* [No.168 excel表列名称](./leetcode/168.excel表列名称.js "168. Excel Sheet Column Title")
+
+* [No.167 两数之和-ii-输入有序数组](./leetcode/167.两数之和-ii-输入有序数组.js "167. Two Sum II - Input array is sorted")
+
 * [No.160 相交链表](./leetcode/160.相交链表.js "160. Intersection of Two Linked Lists")
 
 * [No.155 最小栈](./leetcode/155.最小栈.js "155. Min Stack")

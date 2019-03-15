@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "name": "启动程序",
-      "program": "${workspaceFolder}\\leetcode\\30-substring-with-concatenation-of-all-words.js"
+      "program": "${workspaceFolder}\\leetcode\\198.打家劫舍.js"
     }
   ]
 }
