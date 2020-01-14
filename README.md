@@ -351,6 +351,8 @@
 
 * [No.35 搜索插入位置](./leetcode/35.搜索插入位置.js "35. search-insert-position")
 
+* [No.32 最长有效括号](./leetcode/32.最长有效括号.js "32. Longest Valid Parentheses")
+
 * [No.31 下一个排列](./leetcode/31.下一个排列.js "31. Next Permutation")
 
 * [No.30 串联所有单词的子串](./leetcode/30-substring-with-concatenation-of-all-words.js "30. Substring with Concatenation of All Words")
