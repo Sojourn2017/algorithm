@@ -351,6 +351,8 @@
 
 * [No.35 搜索插入位置](./leetcode/35.搜索插入位置.js "35. search-insert-position")
 
+* [No.33 搜索旋转排序数组.js](./leetcode/33.搜索旋转排序数组.js "33. Search in Rotated Sorted Array   ")
+
 * [No.32 最长有效括号](./leetcode/32.最长有效括号.js "32. Longest Valid Parentheses")
 
 * [No.31 下一个排列](./leetcode/31.下一个排列.js "31. Next Permutation")
