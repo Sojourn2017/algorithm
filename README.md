@@ -349,6 +349,8 @@
 
 * [No.38 报数](./leetcode/38.报数.js "38. Count and Say")
 
+* [No.37 解数独](./leetcode/37.解数独.js "37. Sudoku Solver")
+
 * [No.36 有效的数独](./leetcode/36.有效的数独.js "36. Valid Sudoku")
 
 * [No.35 搜索插入位置](./leetcode/35.搜索插入位置.js "35. search-insert-position")
