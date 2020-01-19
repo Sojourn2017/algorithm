@@ -349,9 +349,13 @@
 
 * [No.38 报数](./leetcode/38.报数.js "38. Count and Say")
 
+* [No.36 有效的数独](./leetcode/36.有效的数独.js "36. Valid Sudoku")
+
 * [No.35 搜索插入位置](./leetcode/35.搜索插入位置.js "35. search-insert-position")
 
-* [No.33 搜索旋转排序数组.js](./leetcode/33.搜索旋转排序数组.js "33. Search in Rotated Sorted Array   ")
+* [No.34 在排序数组中查找元素的第一个和最后一个位置.js](./leetcode/34.在排序数组中查找元素的第一个和最后一个位置.js "34. Find First and Last Position of Element in Sorted Array")
+
+* [No.33 搜索旋转排序数组.js](./leetcode/33.搜索旋转排序数组.js "33. Search in Rotated Sorted Array")
 
 * [No.32 最长有效括号](./leetcode/32.最长有效括号.js "32. Longest Valid Parentheses")
 
